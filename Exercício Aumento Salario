@@ -1,0 +1,14 @@
+import java.util.*
+
+fun main (args:Array<String>){
+    val valor = Scanner(System.`in`)
+    println("Digite o salario do funcionario")
+    val salario:Float = valor.nextFloat()
+
+    var soma = (salario * 25) / 100
+    var novoSalario = salario + soma
+
+    println("O novo Salario é $novoSalario")
+
+
+}
