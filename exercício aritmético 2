@@ -1,0 +1,13 @@
+import java.util.*
+
+fun main (args:Array<String>){
+    var numero :Int?
+    println("Digite um numero inteiro")
+    val scan2 = Scanner(System.`in`)
+    numero = scan2.nextLine().trim().toInt()
+
+    var sucessor = numero + 1
+    var antecessor = numero - 1
+
+    println("O antecessor $antecessor é sucessor $sucessor")
+}
