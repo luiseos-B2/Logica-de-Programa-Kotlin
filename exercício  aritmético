@@ -1,0 +1,11 @@
+import java.util.*
+
+fun main (args:Array<String>){
+
+  var num :Float?
+    println("digite um numero real")
+    val scan = Scanner(System.`in`)
+    num = scan.nextLine().trim().toFloat()
+
+    var soma :Float = num * num
+    println("O valor do quadrado é $soma")
